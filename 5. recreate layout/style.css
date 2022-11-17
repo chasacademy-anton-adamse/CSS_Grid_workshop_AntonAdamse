@@ -1,0 +1,138 @@
+.header{
+
+
+    background-color:blueviolet;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px 1fr));
+
+
+
+}
+
+
+
+
+.header h1{
+
+    
+
+
+    color: rgb(245, 42, 42);
+    font-size: 4rem;
+    
+
+
+}
+
+
+
+.hero{
+
+
+    background:
+    url(https://picsum.photos/id/22/367/267)center;
+    background-size:cover;
+    padding:4rem 2rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px 1fr));
+    align-items:center;
+    
+
+}
+
+
+
+.hero > * {
+    color: rgb(0, 0, 0);
+    
+  }
+
+
+.articles > ul {
+
+
+    display:grid;
+    grid-template-columns: repeat( auto-fit, minmax(160px,1fr));
+    grid-gap:1rem;
+    grid-auto-flow:dense;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+
+.articles > ul > li {
+
+
+   
+    border: 1px solid #080808;
+    border-radius: 9px;
+
+
+
+}
+
+
+
+.articles > ul > li > figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+.middle{
+
+
+
+    background-color: blueviolet;
+    color: aliceblue;
+    padding:3rem;
+}
+
+
+
+
+
+
+
+.cards > ul{
+
+
+    display:grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px,1fr));
+    grid-gap: 1rem;
+
+    
+    
+
+
+
+
+}
+
+
+.cards >ul> li{
+
+
+    background-color: rgb(106, 36, 172);
+    color: aliceblue;
+    padding: 1rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
